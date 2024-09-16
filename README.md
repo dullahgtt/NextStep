@@ -6,6 +6,7 @@ Developing a next gen low-income support app.
 1. Entry Point: Home Page
 
     UI Elements:
+   
         App Name: homeLESS
         Navigation Bar:
             Home (current page)
@@ -19,9 +20,10 @@ Developing a next gen low-income support app.
         Footer:
             Privacy policy, Terms of service, Contact info
 
-2. Support Finder (Free, No Account Necessary)
+3. Support Finder (Free, No Account Necessary)
 
     Process:
+   
         Input: Users can search by:
             Current Location (auto-detected or manually inputted)
             Type of Support (food banks, shelters, medical aid, mental health services, etc.)
@@ -32,24 +34,27 @@ Developing a next gen low-income support app.
             Option to filter results based on proximity or type of support needed
         Results: List view below the map (sortable by distance, ratings, etc.)
 
-3. Job System (Account Required)
+5. Job System (Account Required)
 
     Login/Signup Page:
+   
         Options: User can either create a new account (sign up) or log into an existing one.
         For first-time users: Basic identity verification to ensure safety (e.g., email/phone verification, ID submission for workers).
         Roles:
             Job Seekers: Individuals looking for work
             Job Posters: Individuals or organizations posting job opportunities
 
-4. Main Job Finder/Job Posting Page (Account Required)
+7. Main Job Finder/Job Posting Page (Account Required)
 
     Toggle Options: Users can switch between two main modes:
+   
         Job Posting Mode (for people looking to post jobs)
         Job Search Mode (for people looking for work)
 
 A. Job Posting Mode (For job posters)
 
    Input Fields:
+   
       Job Title (e.g., “Handyman Needed”, “Cooking Help”)
       Job Description (describe the job requirements, tasks, and time commitment)
       Location (allow for either a specific address or general area for privacy)
@@ -61,11 +66,13 @@ A. Job Posting Mode (For job posters)
 B. Job Search Mode (For job seekers)
 
    Input Fields/Filters:
+   
       Location (auto-detect or manually input)
       Job Type (manual labor, cooking, cleaning, care work, etc.)
       Compensation Type (monetary or non-monetary)
       Worker Verified Toggle (toggle to show only jobs that require verification)
    Map Interface:
+   
       Shows pins of available jobs in the area
       Pins provide a quick summary of the job (title, pay, and type)
       Filter Bar:
@@ -76,6 +83,7 @@ B. Job Search Mode (For job seekers)
 5. Profile Page (For Account Holders)
 
     UI Elements:
+   
         Profile Icon on the top right of the screen (clicking this leads to the profile page)
         Profile Information:
             Name
@@ -86,9 +94,10 @@ B. Job Search Mode (For job seekers)
                 Reviews or ratings from job posters/workers
             Edit Profile button for updating user information
 
-6. Map Interface (Central Feature for Both Support Finder & Jobs)
+7. Map Interface (Central Feature for Both Support Finder & Jobs)
 
     Common Map Features (available in both Support Finder and Job modes):
+   
         Toggle Bar:
             Income Level filter (for support services or job opportunities based on the user's income status)
             Type of Support/Job filter (e.g., job type for workers, support type for those seeking aid)
@@ -100,31 +109,36 @@ B. Job Search Mode (For job seekers)
         Navigation Options:
             Directions to job sites or support centers via Google Maps or similar services
 
-7. Verification Process (For Workers)
+9. Verification Process (For Workers)
 
     Purpose: Ensure that workers who are seeking jobs through the app are verified for safety.
+   
     Verification Flow:
+   
         Account Creation: Worker signs up and is prompted to verify their identity (by submitting a government ID or similar document)
         Approval Process: The app has a backend process where admins verify the submitted documents
         Verification Status: Once verified, workers get a badge on their profile, making it visible to job posters for trust-building
 
-8. Admin Panel (For App Management)
+11. Admin Panel (For App Management)
 
     Admin Features:
+    
         User Management: Admins can manage user accounts, including banning users if necessary
         Support Services Database: Ability to add or remove support services on the map
         Verification Management: Approve or deny worker verifications
         Job Listings: Monitor job listings for inappropriate content
 
-9. Notifications (Optional Feature for Account Holders)
+13. Notifications (Optional Feature for Account Holders)
 
     Job Alerts:
+    
         Notify job seekers when a new job is posted that matches their filters (e.g., location, job type)
         Notify job posters when a worker applies for their job
 
-10. Security and Privacy
+15. Security and Privacy
 
     Security Features:
+    
         Data Encryption for sensitive information
         Two-factor authentication for account holders
         Privacy settings for job posters (e.g., hiding exact location)
