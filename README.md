@@ -49,29 +49,29 @@ Developing a next gen low-income support app.
 
 A. Job Posting Mode (For job posters)
 
-    Input Fields:
-        Job Title (e.g., “Handyman Needed”, “Cooking Help”)
-        Job Description (describe the job requirements, tasks, and time commitment)
-        Location (allow for either a specific address or general area for privacy)
-        Required Skills (optional filter for required worker skills)
-        Payment/Compensation (hourly rate, fixed payment, non-monetary compensation like food or accommodation)
-        Worker Verification Requirement (yes/no toggle)
-    Submit Job button that posts the job on the platform
+   Input Fields:
+      Job Title (e.g., “Handyman Needed”, “Cooking Help”)
+      Job Description (describe the job requirements, tasks, and time commitment)
+      Location (allow for either a specific address or general area for privacy)
+      Required Skills (optional filter for required worker skills)
+      Payment/Compensation (hourly rate, fixed payment, non-monetary compensation like food or accommodation)
+      Worker Verification Requirement (yes/no toggle)
+  Submit Job button that posts the job on the platform
 
 B. Job Search Mode (For job seekers)
 
-    Input Fields/Filters:
-        Location (auto-detect or manually input)
-        Job Type (manual labor, cooking, cleaning, care work, etc.)
-        Compensation Type (monetary or non-monetary)
-        Worker Verified Toggle (toggle to show only jobs that require verification)
-    Map Interface:
-        Shows pins of available jobs in the area
-        Pins provide a quick summary of the job (title, pay, and type)
-        Filter Bar:
-            Income Level Toggle (jobs with higher pay vs lower pay)
-            Type of work (e.g., cleaning, childcare, construction, etc.)
-        Apply button: Job seekers can express interest in the job via a built-in message system
+   Input Fields/Filters:
+      Location (auto-detect or manually input)
+      Job Type (manual labor, cooking, cleaning, care work, etc.)
+      Compensation Type (monetary or non-monetary)
+      Worker Verified Toggle (toggle to show only jobs that require verification)
+   Map Interface:
+      Shows pins of available jobs in the area
+      Pins provide a quick summary of the job (title, pay, and type)
+      Filter Bar:
+          Income Level Toggle (jobs with higher pay vs lower pay)
+          Type of work (e.g., cleaning, childcare, construction, etc.)
+      Apply button: Job seekers can express interest in the job via a built-in message system
 
 5. Profile Page (For Account Holders)
 
