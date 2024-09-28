@@ -7,7 +7,7 @@ Developing a next gen low-income support app.
 
     UI Elements:
    
-        App Name: homeLESS
+        App Name: NextStep
         Navigation Bar:
             Home (current page)
             Support Finder (no account required)
